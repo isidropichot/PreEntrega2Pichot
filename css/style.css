@@ -1,0 +1,330 @@
+/* cambiar config d raiz */
+html{
+    font-size: 62,5%;
+}
+
+
+#contenido-principal{
+    color: #ac0d0dcc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-style: groove;
+    border-color: #ac0d0dcc;
+}
+
+#tope {
+    background-color: #ac0d0dcc;
+      padding: 10px;
+     }
+
+     .titulos {
+         list-style: none;
+         margin: 0px;
+         padding: 0px;
+         display: flex;
+         
+     }
+
+     .principales {
+         color: #fff;
+         text-decoration: none;
+         padding: 100px;
+     }
+ 
+
+.contenedor{
+    position: relative;
+    display: block;
+    text-align: center;
+   
+}
+    .tituloturismo{
+        color: aliceblue;
+        font-size: 100px;
+        position: absolute;
+        top: 110px;
+        left: 300px;
+    }
+
+    .subtitulo{
+        color: aliceblue;
+        position: absolute;
+        top: 260px;
+        left: 350px;
+        font-size: 50px;
+    }
+
+ .parrafol{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+ .subti{
+    text-align: center;
+    margin-top: 50px;
+}
+ .videito{
+    position: relative;
+    display: block;
+    text-align: center;
+ }
+   
+ .titunos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.contentnos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+.nos{
+     display: flex;
+     flex-direction: column;
+     width: 400px;
+     padding: 25px;
+     border: 10px solid #000000;
+    align-items: center;
+     margin-bottom: 10px;
+     background-color: rgb(214, 74, 74);
+}
+
+
+
+
+/* css footer */ 
+    .footerr{
+        background-color: black;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .redes-sociales{
+        display: flex;  
+        justify-content: center;
+        }
+
+        
+        .redes-sociales a {
+            display: inline-block;
+            margin-left:150px;
+            margin-right: 150px;
+            padding-top: 30px;
+        }
+        
+        .redes-sociales img {    
+            width: 90px;          
+            height: 90px;
+        }
+
+
+
+/* css lisboa */ 
+.contenedorfotolisboa{
+    position: relative;
+    display: block;
+    text-align: center;
+    
+ }
+
+    .titulisboa{
+        color: aliceblue;
+        font-size: 100px;
+        position: absolute;
+        top: 190px;
+        left: 700px;
+    }
+    
+    .parrafo2{
+        margin-bottom: 50px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+
+       .bigbox{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       }
+       .cover{
+           width: 1300px;
+           height: 400px;
+           margin-top: 50px;
+           display: flex;
+           margin-bottom: 50px;
+       }
+       
+       .box{
+           width: 800px;
+           height: 400px;
+           margin: 15px;
+           border: 7px solid #000000;
+           text-align: center;
+          
+       }
+       .imgs{
+           width: 400px;
+           height: 250px;
+       }
+    
+
+    #mapalisboa{
+        margin-top: 80px; 
+        margin-bottom: 80px;
+        margin-left: 270px;
+    }
+
+
+
+
+    /* css porto */ 
+.imgporto{
+    text-align: center;
+}
+
+    .tituloporto{
+        color: aliceblue;
+        font-size: 100px;
+        position: absolute;
+        top: 110px;
+        left: 300px;
+    }
+    
+    .parrafo3{
+        margin-bottom: 50px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #mapaporto{
+        margin-top: 80px; 
+        margin-bottom: 80px;
+        margin-left: 270px;
+     }
+
+
+
+
+    
+ /* css que hacer */
+
+.content-imgs{   
+    margin: 3rem;
+    height: 290vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+}
+
+    
+
+    main section div  img{
+        width: 100%;
+        height:300px ;
+        object-fit: cover;
+        border-radius: 10%;     
+    }  
+    
+    section div h1{
+        padding: 2%;
+    text-align: center;
+    }
+
+    @media screen and (min-width:700px){
+        .content-imgs{
+            height: 140vh;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 50%);
+            gap: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+
+
+
+    
+    
+
+     
+
+
+
+    
+  /* css eventos */ 
+   
+.parrafoeventos{
+    display: flex;
+    text-align: center;
+    margin: 0px  100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+}
+
+    .contenidofato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fato{
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .contituloev{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .proximoseventos{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .cont-eventos{
+        height: 110vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 20%);
+        gap: 2rem;
+    }
+
+    div div img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    
+    .container{
+        background-color: rgb(214, 74, 74);
+    }
+
+
+
+    @media screen and (min-width:700px){
+        .cont-eventos{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 50%);
+            gap: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+
+
+
+ 
